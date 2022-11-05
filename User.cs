@@ -138,6 +138,8 @@ namespace C_____lb1
             Console.WriteLine("Service " + tariff.getServiceNameFromEnum(serv) + " was removed from your tariff!");
         }
 
+        public List<PhoneCall> getCallHistory() { return callsHistory; }
+
         public void printCallHistory()
         {
             if (tariff is null)
