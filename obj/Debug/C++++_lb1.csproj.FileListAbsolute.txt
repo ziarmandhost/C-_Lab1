@@ -1,8 +1,0 @@
-D:\Projects\VS\C++++_lb1\bin\Debug\C++++_lb1.exe.config
-D:\Projects\VS\C++++_lb1\bin\Debug\C++++_lb1.exe
-D:\Projects\VS\C++++_lb1\bin\Debug\C++++_lb1.pdb
-D:\Projects\VS\C++++_lb1\obj\Debug\C++++_lb1.csproj.AssemblyReference.cache
-D:\Projects\VS\C++++_lb1\obj\Debug\C++++_lb1.csproj.SuggestedBindingRedirects.cache
-D:\Projects\VS\C++++_lb1\obj\Debug\C++++_lb1.csproj.CoreCompileInputs.cache
-D:\Projects\VS\C++++_lb1\obj\Debug\C++++_lb1.exe
-D:\Projects\VS\C++++_lb1\obj\Debug\C++++_lb1.pdb
