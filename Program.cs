@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace C_____lb1
 {
-    internal class Program
+  internal class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            User David = new User("+380993857855");
+      User David = new User("+380993857855");
 
-            //David.setTariff(TariffNames.Vodafone_SuperNet_Turbo);
+      David.setTariff(TariffNames.Vodafone_SuperNet_Turbo);
 
-            double balance = David.topUpTheAccount(500);
+      double balance = David.topUpTheAccount(500);
 
-            double costOfCall = David.call("+380661530961", 2);
+      double costOfCall = David.call("+380661530961", 2);
 
-            David.addService(Services.TV_in_phone);
-            David.addService(Services.Hide_your_phone_number);
-            David.addService(Services.International_calls_and_SMS);
+      David.addService(Services.TV_in_phone);
+      David.addService(Services.Hide_your_phone_number);
+      David.addService(Services.International_calls_and_SMS);
 
-            David.removeService(Services.TV_in_phone);
+      David.removeService(Services.TV_in_phone);
 
-            double balanceFromGetter = David.getBalance();
+      double balanceFromGetter = David.getBalance();
 
-            List<Services> myServices = David.getServices();
+      List<Services> myServices = David.getServices();
 
-            David.printServices();
+      David.printServices();
 
-            David.printCallHistory();
-        }
+      David.printCallHistory();
     }
+  }
 }
